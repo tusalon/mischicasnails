@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Mis chicas Nails
 
-const CACHE_NAME = 'mischicasnails-v29';
+const CACHE_NAME = 'mischicasnails-v25';
 const urlsToCache = [
   '/mischicasnails/',
   '/mischicasnails/index.html',
