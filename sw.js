@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Mis chicas Nails
 
-const CACHE_NAME = 'mischicasnails-v29';
+const CACHE_NAME = 'mischicasnails-v47';
 const urlsToCache = [
   '/mischicasnails/',
   '/mischicasnails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/mischicasnails/icons/icon-152x152.png',
   '/mischicasnails/icons/icon-192x192.png',
   '/mischicasnails/icons/icon-384x384.png',
-  '/mischicasnails/icons/icon-512x512.png'
+  '/mischicasnails/icons/icon-512x512.png',
+  '/mischicasnails/vendor/react.production.min.js',
+  '/mischicasnails/vendor/react-dom.production.min.js',
+  '/mischicasnails/vendor/babel.min.js',
+  '/mischicasnails/vendor/bcrypt.min.js',
+  '/mischicasnails/vendor/tailwind-browser.js',
+  '/mischicasnails/vendor/lucide/lucide.css',
+  '/mischicasnails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
